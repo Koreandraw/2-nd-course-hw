@@ -9,7 +9,7 @@ if (type === 'lorem') {
 }
 
 //2
-const c = Number(4);
+let c = Number(4);
 if (c > 0 && c < 10) {
     console.log('Верно');
 } else {
@@ -17,8 +17,8 @@ if (c > 0 && c < 10) {
 }
 
 //3
-const d = Number(101);
-const e = Number(99);
+let d = Number(101);
+let e = Number(99);
 if (d > 100 || e > 100) {
     console.log('Верно');
 } else {
@@ -26,18 +26,18 @@ if (d > 100 || e > 100) {
 }
 
 //4
-const a = 2;
-const b = 3;
+let a = 2;
+let b = 3;
 alert(a + b);
 // либо так, но первый вариант кажется проще. Как корректнее?
-const a = Number(2);
-const b = Number(3);
+let a = Number(2);
+let b = Number(3);
 alert(a + b);
-*/
+
+
 //5
-let season = Number(prompt('Давайте угадаю сезон? Введите номер текущего месяца'));
-let monthNumber = Number(12);
-switch (season) {
+let monthNumber = Number(prompt('Давайте угадаю сезон? Введите номер текущего месяца'));
+switch (monthNumber) {
     case 12:
     case 1:
     case 2:
@@ -59,5 +59,7 @@ switch (season) {
         console.log('Осень'); 
         break;  
     default:
+        console.log('Некорректное значение! Введите число от 1 до 12');
         break;
 }
+*/
