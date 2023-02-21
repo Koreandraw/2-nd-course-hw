@@ -6,7 +6,7 @@
 
     .top{
         height: 735px;
-        background-position: -210px;        
+        background-position: center center;       
         &__content{
             display: flex;
             flex-direction: column;
@@ -27,20 +27,20 @@
             font-size: 14px;
             line-height: 22px;
             color: #FFFFFF;         
-        } 
-            
+        }             
     }
 
     .games{
-        height: 1222px;        
-    
+        height: 1222px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+
         &__item{
-            padding bottom: 32px;            
-            box-sizing: border-box;                 
-        }          
-    
-       
-    
-    
+            width: 342px;
+            padding-bottom: 32px;
+            padding-left: 16px;
+        }
+                                
     }
 }

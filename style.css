@@ -98,4 +98,45 @@ body {
 .games__item-3 {
   background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/g3.png);
   border-radius: 16px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+    background-position: center center;
+  }
+  .top__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+  }
+  .top__text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .games {
+    height: 1222px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .games__item {
+    width: 342px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
