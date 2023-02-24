@@ -4,10 +4,10 @@ let a = alert(10);
 a = alert(20);
 
 //2
-let yearIphone = alert(2007);
+const yearIphone = alert(2007);
 
 //3
-let javaName = alert("Брендан Эйх")
+const javaName = alert("Брендан Эйх")
 
 //4
 let num1 = Number(10);
