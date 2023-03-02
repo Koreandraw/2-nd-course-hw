@@ -52,6 +52,7 @@ body {
         height: 48px;
         background: #9C0332;
         border-radius: 30px;
+        border: none;
         box-sizing: border-box;
         padding-left: 74px;
         padding-right: 74px;
@@ -60,7 +61,7 @@ body {
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
-        color: #FFFFFF;
+        color: #FFFFFF;        
         transition: all 0.3s;
 
         &:hover {
@@ -113,6 +114,63 @@ body {
     }
 
 
+}
+
+.gamebox {
+    height: 800px;
+    background: #000915;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__image__mob {
+        display: none;
+    }
+
+    
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        width: 584px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    &__button {
+        width: 234px;
+        height: 48px;
+        background: #9C0332;
+        border-radius: 30px;
+        border: none;
+        box-sizing: border-box;
+        padding-left: 74px;
+        padding-right: 74px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        transition: all 0.3s; 
+        
+        &:hover {
+            background: #EB443F;
+        }
+    }
 }
 
 @import "mobile";
