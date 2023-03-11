@@ -50,12 +50,13 @@
         justify-content: center;
         gap: 64px;
 
-        &__image{
+        &__image {
             display: none;
             &__mob {
                 display: initial;
             }
         }
+        
 
         &__content {
             display: flex;
@@ -80,4 +81,14 @@
 
 
     }
+
+    .gamebox2 {
+        height: 654px; 
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 64px;   
+    }
+
+
 }
